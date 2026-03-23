@@ -11,16 +11,16 @@
 
 @font-face {
 	font-family: Inter;
-	src: url(../fonts/Inter/Inter_18pt-Regular.ttf);
+	src: url(../fonts/Inter/Inter_18pt-Regular.woff2);
 	font-display: swap;
 }
 @font-face {
 	font-family: Inter bold;
-	src: url(../fonts/Inter/Inter_18pt-Bold.ttf);
+	src: url(../fonts/Inter/Inter_18pt-Bold.woff2);
 	font-display: swap;
 }
 
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -40,7 +40,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 32px;
-}
+} */
 
 .hero__container {
 	padding-top: 13px;
@@ -54,6 +54,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+/* 
 .hero__italic {
 	font-family: Italianno;
 	font-weight: 400;
@@ -332,3 +333,4 @@
 	padding-left: 17px;
 	padding-right: 17px;
 }
+ */
