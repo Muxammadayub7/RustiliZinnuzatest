@@ -169,7 +169,7 @@ body {
 	display: flex;
 	align-items: center;
 	width: 100%;
-	max-width: 400px; /* O'zingga qarab mosla */
+	max-width: 400px; /* O'zingga qarab mosla 
 	margin: 0 auto;
 }
 
@@ -185,7 +185,6 @@ body {
 	margin-bottom: -20px;
 }
 
-/* O'ng tomondagi chiziq (Chapga qarab to'qlashadi) */
 .timer-container::after {
 	content: '';
 	flex: 1;

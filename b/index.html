@@ -57,12 +57,12 @@
     .title {
       font-family: NeosBold;
       font-weight: 700;
-      font-size: 38px;
+      font-size: clamp(30px, 4vw, 38px);
       line-height: 120%;
       text-align: center;
       text-transform: uppercase;
       color: #000;
-      margin-bottom: 4px
+      margin-bottom: 4px;
     }
 
     .title span {
@@ -127,11 +127,11 @@
     .gradient::before {
       content: '';
       position: absolute;
-      bottom: -320px;
+      bottom: clamp(-200px, 3vw, -320px);
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 380px;
-      height: 380px;
+      width: clamp(280px, 4vw, 380px);
+      height: clamp(280px, 4vw, 380px);
       background: radial-gradient(circle, #6d3c14 0, rgba(109, 60, 20, 0) 100%);
       filter: blur(80px);
       z-index: 1;
@@ -149,11 +149,10 @@
       background-color: #fff;
       z-index: 11;
       position: absolute;
-      max-width: 350px;
-      width: 100%;
+      width: clamp(284px, 90%, 354px);
       margin-top: -70px;
       padding: 14px 14px 14px 14px;
-      border-radius: 20px
+      border-radius: 20px;
     }
 
     .timer-container {
@@ -183,7 +182,7 @@
     .btn {
       font-family: NeosBold;
       font-weight: 700;
-      font-size: 22px;
+      font-size: clamp(18px, 4vw, 22px);
       line-height: 100%;
       text-align: center;
       text-transform: uppercase;
@@ -237,7 +236,7 @@
     .bottom__title {
       font-family: NeosBold;
       font-weight: 700;
-      font-size: 28px;
+      font-size: clamp(24px, 2vw, 28px);
       line-height: 100%;
       text-align: center;
       text-transform: uppercase;
@@ -257,7 +256,7 @@
     .flex__title {
       font-family: NeosBold;
       font-weight: 700;
-      font-size: 50px;
+      font-size: clamp(48px, 3vw, 50px);
       line-height: 1;
       text-transform: uppercase;
       position: relative;
@@ -276,7 +275,7 @@
     .bottom__text {
       font-family: NeosRegular;
       font-weight: 400;
-      font-size: 16px;
+      font-size: clamp(12px, 4vw, 16px);
       line-height: 130%;
       max-width: 261px;
       width: 100%;
@@ -392,7 +391,7 @@
   </div>
 
 
-  <script src="./js/phoneFormatter.js"></script>
+  <script defer src="./js/phoneFormatter.js"></script>
   <script defer src="./js/app.js"></script>
 
 </body>
